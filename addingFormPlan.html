@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css  -->
+    <link rel="stylesheet" href="/altebr.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- toastr -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" rel="stylesheet">
+
+    <title>altebr</title>
+
+</head>
+
+
+    <body id="body-pd">
+        <div class="page d-flex AddForm">
+
+            <!-- sidebar -->
+            <div class="sidebar bg-white p-20 p-relative">
+                <h1 class="p-relative txt-c mt-0">altebr</h1>
+                <ul>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="Home.html">
+
+                            <i class="fa-solid fa-house"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="government.html">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>الدول</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="city.html">
+                            <i class="fa-solid fa-city"></i>
+                            <span>المدن</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="plan.html">
+                            <i class="fa-solid fa-credit-card"></i> <span>خطط الاشتراكات</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="company.html">
+                            <i class="fa-solid fa-handshake-simple"></i> <span>الشركات</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--ens sidebar -->
+            <!-- mainContent -->
+            <div class="content w-full">
+                <!-- Start Head -->
+                <div class="head bg-white p-15 between-flex">
+                    <div class="search p-relative">
+                        <input class="p-10" type="search" placeholder="البحث" />
+                    </div>
+                    <div class="icons d-flex align-center gap-20">
+                        <!-- language -->
+                        <span class="d-flex align-center language">
+                            <span style="display:block;" id="ar">AR</span>
+                            <span id="en" style="display:none;">EN</span>
+                            <i class=" fa-solid fa-globe"></i>
+                
+                        </span>
+                        <span class="notification p-relative">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </span>
+                        <img src="/altebr_logo.png" alt="avatar" />
+                        <a href="" class="signOut">
+                            <span>الخروج</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Head -->
+
+                <!-- content -->
+                <!-- content -->
+                <div class="d-flex align-center mainHead">
+                    <svg width="25" height="25" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.9453 16.9453H6.71414V6.71414H16.9453V16.9453ZM3.88441 14.1156V3.88441H14.1156V5.6591H6.1868C5.89535 5.6591 5.65945 5.89535 5.65945 6.18645V14.1156H3.88441ZM1.05469 11.2859V1.05469H11.2859V2.82972H3.35707C3.06562 2.82972 2.82973 3.06562 2.82973 3.35707V11.2859H1.05469ZM17.4727 5.6591H15.1703V3.35707C15.1703 3.06562 14.9344 2.82972 14.6429 2.82972H12.3405V0.527342C12.3405 0.235896 12.1046 0 11.8132 0H0.527344C0.235898 0 0 0.235896 0 0.527342V11.8132C0 12.1046 0.235898 12.3405 0.527344 12.3405H2.82973V14.6429C2.82973 14.9344 3.06562 15.1703 3.35707 15.1703H5.65945V17.4727C5.65945 17.7637 5.89535 18 6.1868 18H17.4727C17.7641 18 18 17.7637 18 17.4727V6.18645C18 5.89535 17.7641 5.6591 17.4727 5.6591Z"
+                            fill="#295E56" />
+                    </svg>
+
+                    <h2 class="p-relative ">اضافة خطط اشتراك</h2>
+                </div>
+                <div class="wrapper_inputs rad-10 ">
+                    <div class="wrapper_form rad-10">
+                        <div class="first_input ">
+                            <label for="name_ar">
+                                الاسم بالعربية *
+                            </label>
+                            <input type="text" name="name_ar" id="name_ar" placeholder="الاسم بالعربية">
+                        </div>
+                        <div class="first_input ">
+                            <label for="name_en">
+                                الاسم بالانجليزية*
+                            </label>
+                            <input type="text" name="name_en" id="name_en" placeholder="الاسم بالانجليزية">
+                        </div>
+                    </div>
+                    <div class=" d-flex btnSubmit">
+                        <button type="submit">حفظ</button>
+                    </div>
+                </div>
+                <!--end content -->
+            </div>
+        </div>
+        </div>
+        <!--end mainContent -->
+    </body>
+
+</html>
